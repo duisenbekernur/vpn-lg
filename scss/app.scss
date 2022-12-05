@@ -1,0 +1,21 @@
+@import './blocks/navbar';
+@import './blocks/header';
+@import './blocks/info';
+@import './blocks/features';
+@import './blocks/plan';
+@import './blocks/network';
+@import './blocks/reviews';
+@import './blocks/subscribe';
+@import './blocks/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}

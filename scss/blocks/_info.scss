@@ -1,0 +1,32 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  padding: 72px 66px 72px 115px;
+  margin-bottom: 96px;
+  justify-content: center;
+}
+
+.info-users {
+  display: flex;
+  column-gap: 36.5px;
+  width: 360px;
+  img {
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+  }
+  p {
+    width: 53px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+    span {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 30px;
+      margin: 5px;
+      color: #0B132A;
+    }
+  }
+}
